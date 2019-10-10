@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dimplomarbeit, Scrollringe in der komplexen Ginzburg-Landau-Gleichung
+title: Diplomarbeit, Scrollringe in der komplexen Ginzburg-Landau-Gleichung
 ---
 
 Im Rahmen dieser Arbeit wird die Wechselwirkung von Scrollringen mit einem Neumann-Rand in der komplexen Ginzburg-Landau-Gleichung untersucht. 
