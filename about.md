@@ -4,12 +4,18 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Current work address:\\
+Roux lab\\
+929 East 57th Street\\
+Chicago, IL 60637\\
+Rm: W323A
 
-### More Information
+> Von einer technohumanen Kultur, die mehr als eine erfolgreiche Barbarei sein will, werden vor allem zwei Dinge verlangt: 
+> psychologische Bildung und kulturelle Übersetzungsfähigkeit. Die Mathematiker müssen Poeten werden, die Kybernetiker Religionsphilosophen, 
+> die Ärzte Komponisten, die Informatiker Schamanen.
 
-A place to include any other types of information that you'd like to include about yourself.
+*Peter Sloterdijk, Optimierung des Menschen?*
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[fapa@uchicago.edu](mailto:fapa@uchicago.edu)
