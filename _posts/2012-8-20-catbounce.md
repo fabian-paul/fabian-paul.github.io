@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dead cat bounce simulation
-use_processing: true_
+use_processing: true
 ---
 
 This is a bunch of discs that do inelastic collisions. Gravity pulls them down but the piston in the floor tosses them up. What do you expect to be the long time behavior of the simulation? Figure it out or ... relax and observe. :) 
@@ -10,3 +10,5 @@ This is a bunch of discs that do inelastic collisions. Gravity pulls them down b
 
 <div id="sketch-holder">
 </div>
+
+[show source]({{ site.baseurl }}/scripts/catbounce.js)
