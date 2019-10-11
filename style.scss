@@ -278,6 +278,18 @@ nav {
   background-color: $lightGray;
 }
 
+blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+
+
 footer {
   padding: 20px 0;
   text-align: center;

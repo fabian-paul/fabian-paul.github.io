@@ -13,8 +13,8 @@ Rm: W323A
 > Von einer technohumanen Kultur, die mehr als eine erfolgreiche Barbarei sein will, werden vor allem zwei Dinge verlangt: 
 > psychologische Bildung und kulturelle Übersetzungsfähigkeit. Die Mathematiker müssen Poeten werden, die Kybernetiker Religionsphilosophen, 
 > die Ärzte Komponisten, die Informatiker Schamanen.
-
-*Peter Sloterdijk, Optimierung des Menschen?*
+	
+— *Peter Sloterdijk, Optimierung des Menschen?*
 
 ### Contact me
 
