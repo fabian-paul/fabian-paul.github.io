@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Diplomarbeit, Scrollringe in der komplexen Ginzburg-Landau-Gleichung
+use_processing: true
+processing_script: cgle.js
 ---
 
 Im Rahmen dieser Arbeit wird die Wechselwirkung von Scrollringen mit einem Neumann-Rand in der komplexen Ginzburg-Landau-Gleichung untersucht. 
@@ -10,3 +12,6 @@ Dazu werden dreidimensionale numerische Simulationen im Parameterbereich der pos
 * [Diplomarbeit](http://www.physik.tu-berlin.de/~fab/diplom/Diplomarbeit.pdf)
 * [Poster](http://www.physik.tu-berlin.de/~fab/diplom/Poster.pdf)
 * [Kolloquiumsvortrag](http://www.physik.tu-berlin.de/~fab/diplom/Kolloquium.pdf)
+
+<div id="sketch-holder">
+</div>
