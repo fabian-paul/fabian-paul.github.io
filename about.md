@@ -15,6 +15,12 @@ Rm: W323A
 > die Ärzte Komponisten, die Informatiker Schamanen.
 	
 — *Peter Sloterdijk, Optimierung des Menschen?*
+{: style="text-align: right;"}
+
+> The future masters of technology will have to be lighthearted and intelligent. The machine easily masters the grim and the dumb. 
+
+— *Marshall McLuhan*, Counterblast
+{: style="text-align: right;"}
 
 ### Contact me
 
