@@ -13,5 +13,6 @@ This is a bunch of discs that do inelastic collisions. Gravity pulls them down b
 [show source]({{ site.baseurl }}/scripts/catbounce.js)
 {: style="text-align: center"}
 
-[Here](http://www.youtube.com/watch?v=SRGf0Mq2Zwg) is the full story.  (Spoiler alert!) The code is a MD simulation with soft core discs. Right click opens controls for a few selected parameters.
+[Here](http://www.youtube.com/watch?v=SRGf0Mq2Zwg) is the full story.  (Spoiler alert!) The code is a MD simulation with soft core discs. Right click (or shift
+click) opens controls for a few selected parameters.
 

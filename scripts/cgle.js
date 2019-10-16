@@ -17,6 +17,8 @@ var im_now = array2D(N);
 var re_future = array2D(N);
 var im_future = array2D(N);
 var pseudo_3d = false;
+var alt = false;
+var alt2 = false;
 
 function calc() {
   var re_laplace, im_laplace;
@@ -106,15 +108,15 @@ function draw() {
       set(x, y, color(220./360., 0.5*(re_now[x][y]+1.0), 1.0));
     }
   }
+	if(pseudo_3d) { text("3d", 5, 15); }
   updatePixels();
-  if(pseudo_3d) { text("3d", 5, 15); }
-  if(mouseIsPressed && mouseButton!=CENTER) {
+  if(mouseIsPressed && mouseButton!=CENTER && !alt2) {
     var x0 = max(0, mouseX - 50);
     var y0 = max(0, mouseY - 50);
     var x1 = min(N, mouseX + 50);
     var y1 = min(N, mouseY + 50);
     var mult=1;
-    if(mouseButton==RIGHT) { mult=-1; }
+    if(alt) { mult=-1; }
     for (var x=x0; x < x1; x++) { 
       for (var y=y0; y < y1; y++) { 
         re_now[x][y] = 2*(float((x-x0))/(x1-x0) - 0.5)*mult;
@@ -130,7 +132,7 @@ var bdifx = 0;
 var bdify = 0;
 
 function mouseDragged() {
-  if(locked && mouseButton==CENTER) {
+  if(locked && alt2) {
     var re_temp= array2D(N); 
     var im_temp= array2D(N);   
     for (var x = 0; x < N; x=x+1) { 
@@ -166,4 +168,14 @@ function mouseReleased() {
 function keyTyped() {
   if (key=='3')  { pseudo_3d= true; }
   if (key=='2')  { pseudo_3d= false; }
+}
+
+function keyPressed() {
+   if (keyCode == SHIFT)  alt = true;
+	 if (keyCode == ALT || keyCode == CONTROL)  alt2 = true;
+}
+ 
+function keyReleased() {
+  if (keyCode == SHIFT)  alt = false;
+	if (keyCode == ALT || keyCode == CONTROL)  alt2 = false;
 }

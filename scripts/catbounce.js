@@ -34,6 +34,7 @@ var X = new Array(n); // positions, y-axis is pointing _up_
 var V = new Array(n); // velocities
 var Vtemp = new Array(n); 
 
+
 function setup() {
   var canvas = createCanvas(400, 300);
   canvas.parent('sketch-holder'); // for web-page
@@ -190,9 +191,10 @@ function draw_gui() {
 }
 
 var visible = false;
+var alt = false;
 
 function mousePressed() {
-  if(mouseButton == RIGHT) {
+  if(mouseButton == RIGHT || alt) {
     visible = ! visible;
     if(visible) {
       slider_R.show();
@@ -211,4 +213,12 @@ function mousePressed() {
     }
   return false;
   }
+}
+
+function keyPressed() {
+   if (keyCode == SHIFT)  alt = true;
+}
+ 
+function keyReleased() {
+  if (keyCode == SHIFT)  alt = false;
 }
