@@ -111,16 +111,16 @@ function draw() {
 	if(pseudo_3d) { text("3d", 5, 15); }
   updatePixels();
   if(mouseIsPressed && mouseButton!=CENTER && !alt2) {
-    var x0 = max(0, mouseX - 50);
-    var y0 = max(0, mouseY - 50);
-    var x1 = min(N, mouseX + 50);
-    var y1 = min(N, mouseY + 50);
+    var x0 = max(0, int(mouseX - 50));
+    var y0 = max(0, int(mouseY - 50));
+    var x1 = min(N, int(mouseX + 50));
+    var y1 = min(N, int(mouseY + 50));
     var mult=1;
     if(alt) { mult=-1; }
     for (var x=x0; x < x1; x++) { 
       for (var y=y0; y < y1; y++) { 
-        re_now[x][y] = 2*(float((x-x0))/(x1-x0) - 0.5)*mult;
-        im_now[x][y] = 2*(float((y-y0))/(y1-y0) - 0.5);
+        re_now[x][y] = 2*(float(x-x0)/(x1-x0) - 0.5)*mult;
+        im_now[x][y] = 2*(float(y-y0)/(y1-y0) - 0.5);
       }
     }
   }
@@ -135,10 +135,10 @@ function mouseDragged() {
   if(locked && alt2) {
     var re_temp= array2D(N); 
     var im_temp= array2D(N);   
-    for (var x = 0; x < N; x=x+1) { 
-      for (var y = 0; y < N; y=y+1) { 
-        var rel_x= x-mouseX+bdifx;
-        var rel_y= y-mouseY+bdify;
+    for (var x = 0; x < N; x++) {
+      for (var y = 0; y < N; y++) {
+        var rel_x= int(x-mouseX+bdifx);
+        var rel_y= int(y-mouseY+bdify);
         if(rel_x>=0 && rel_x<N && rel_y>=0 && rel_y<N) {
           re_temp[x][y]=re_now[rel_x][rel_y];
           im_temp[x][y]=im_now[rel_x][rel_y];
