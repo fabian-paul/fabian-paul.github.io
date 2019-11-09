@@ -7,6 +7,12 @@ use_math: true
 Solitonen sind Lösungen einer partiellen nichtlinearen Differentialgleichung, die 
 teilchenartige Eigenschaften aufweisen. Wir behandeln speziell die Korteweg-de-Vries-Gleichung.
 
+![_config.yml]({{ site.baseurl }}/images/Alfond_W2_Ocean_Engineering_Lab_at_the_UMaine_Advanced_Structures_and_Composites_Center.jpg)
+{: style="text-align: center"}
+[Photo](https://commons.wikimedia.org/wiki/File:Alfond_W2_Ocean_Engineering_Lab_at_the_UMaine_Advanced_Structures_and_Composites_Center.jpg) by Jplourde umaine / [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)
+{: style="text-align: center"}
+
+
 ### Solitonen als Flachwasserwellen
 
 Wenn man eine historische Herangehensweise an das Thema der Solitonen wählt,
