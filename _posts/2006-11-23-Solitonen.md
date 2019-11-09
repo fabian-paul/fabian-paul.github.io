@@ -34,15 +34,17 @@ Wasserwellen, deren typische Länge groß ist, verglichen mit der Wassertiefe.
 > the month of August 1834, was my first chance interview with that singular and beautiful
 > phenomenon which I have called the Wave of Translation.
 
+— *John Scott Russell*, Report on Waves [[Russell44]](#Russell44)
+{: style="text-align: right;"}
 
 Mit typischer Länge ist z. B. die Breite einen Wellenpakets gemeint und weniger
 die Wellenlänge, da wir hier nichtperiodische Wellen betrachteten.
 
-Die komplette Herleitung ist in [Meinel91](#Meinel91) nachzulesen, hier wird nur eine kurze
+Die komplette Herleitung ist in [[Meinel91]](#Meinel91) nachzulesen, hier wird nur eine kurze
 Skizze des Beweises gegeben. Ausgangspunkt sind die Euler-Gleichungen, die nichts anderes 
 sind als die Newton'schen Bewegungsgleichungen für eine kontinuierliche Massenverteilung.
 Eine knappe Herleitung der hier benötigten
-hydrodynamischen Gleichungen bietet [Stoker57](#Stoker57). Die Euler-Gleichung werden
+hydrodynamischen Gleichungen bietet [[Stoker57]](#Stoker57). Die Euler-Gleichung werden
 für ein zweidimensionales Koordinatensystem aufgestellt, in dem die x-Achse
 entlang der ruhenden Wasseroberfläche zeigt und auf der y-Achse die Auslenkung
 der Wasseroberfläche aufgetragen wird. $$u$$ sei die Geschwindigkeit in x- und
@@ -192,24 +194,25 @@ nach links bewegt und dessen Form zeitlich unveränderlich ist. Diese Lösung wi
 **solitäre Welle** genannt. Da die Kurve an den Rändern schnell auf Null abfällt,
 lassen sich zwei solitäre Wellen mit verschiedenen Anfangsphasen $$c$$ durch Addition
 superponieren und ergeben so näherungsweise eine weitere Lösung der KdV-Gleichung.
-Diese  Vorgehensweise wird ung¸ltig, wenn sich zwei solitäre Wellen begegnen, was im
+Diese  Vorgehensweise wird ungültig, wenn sich zwei solitäre Wellen begegnen, was im
 folgenden Abschnitt numerisch untersucht wird.
 
 Auffällig ist auch der Zusammenhang zwischen Amplitude und Geschwindigkeit. In 
 dimensionslosen Größen ist die Amplitude gerade die Hälfte der Geschwindigkeit.
-Groﬂe Wellenpakete bewegen sich also schneller. Dieser Zusammenhang macht es erst
+Große Wellenpakete bewegen sich also schneller. Dieser Zusammenhang macht es erst
 möglich, dass sich solitäre Wellen begegnen.
 
 
 ### Literatur/Quellen:
 
-* <a name="Meinel91"/>[Meinel91] Reinhard Meinel, Gernot Neugebauer, Heinz Steudel: "Solitonen, Nichtlineare Strukturen",
-  Akademie Verlag 1991, 1. Auflage, S. 16--17, 128--133 
-* <a name="Stoker57"/>[Stoker57] J. J. Stoker: "Water Waves", Interscience Publishers 1957, S 3--9
-* <a name="Eckhaus83"/>[Eckhaus83] Wiktor Eckhaus, Aart van Harten: "The Inverse Scattering Transformation and The Theory of Solitons", Elsevier Science Publishers B.V. 1983, 1. Auflage, S. 4--5
-* <a name="Dodd82"/>[Dodd82]
+* <a name="Meinel91" />[Meinel91] Reinhard Meinel, Gernot Neugebauer, Heinz Steudel: "Solitonen, Nichtlineare Strukturen",
+  Akademie Verlag 1991, 1. Auflage, S. 16--17, 128--133
+* <a name="Stoker57" />[Stoker57] J. J. Stoker: "Water Waves", Interscience Publishers 1957, S 3--9
+* <a name="Eckhaus83" />[Eckhaus83] Wiktor Eckhaus, Aart van Harten: "The Inverse Scattering Transformation and The Theory of Solitons", Elsevier Science Publishers B.V. 1983, 1. Auflage, S. 4--5
+* <a name="Dodd82" />[Dodd82]
   R.K. Dodd, J.C. Eilbeck, J.D. Gibben, H.C. Morris: "Solitons and Nonlinear Wave Equations". Academic Press, 1982, ISBN 0-12-219120-X, Seite 595
+* <a name="Russell44" />[Russell44] John Scott Russell, Report on Waves, Report of the 14th Meeting of the British Association for the Advancement of Science, (1844), pp.311-390.
 
-[^1]: siehe auch [Eckhaus83](#Eckhaus83).	
+[^1]: siehe auch [[Eckhaus83]](#Eckhaus83).	
 
 

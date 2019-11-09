@@ -13,7 +13,10 @@ Aktivboxen. So lässt sich eine Verstärkung erreichen, die Rock-Gitarren-Feelin
 
 ## Aufbau
 
-![_config.yml]({{ site.baseurl }}/images/laser2.png) Abb. 1 meine Mega-Laser-Gitarre
+![_config.yml]({{ site.baseurl }}/images/laser2.png)
+{: style="text-align: center"}
+Abb. 1 meine Mega-Laser-Gitarre
+{: style="text-align: center"}
 
 
 Auf dem Gitarrenkorpus werden zwei Styroporblöcke mit Klebeband fixiert. Ein Laserpointer wird so umwickelt, dass
@@ -21,8 +24,10 @@ der Taster gedrückt bleibt und auf Höhe der Saiten auf den Styroporblock gekle
 Seiten unterbrochen. Auf der gegenüberliegenden Seite (siehe
 Abbildung 2) wird eine Fotodiode befestigt, auf die schließlich der Laser justiert wird.
 
-![_config.yml]({{ site.baseurl }}/images/laser1.png) 
+![_config.yml]({{ site.baseurl }}/images/laser1.png)
+{: style="text-align: center"}
 Abb. 2 Deteilansicht: links der Laser, rechts die Fotodiode (beides auf Styropor als Abstandshalter)
+{: style="text-align: center"}
 
 Im elektrischen Aufbau bilden die Fotodiode und ein 500Ohm Widerstand einen Spannungsteiler, der mit 12V aus einem
 Netzteil versorgt wird. Am besten eignet sich dabei ein Labornetzteil, weil das das Netzbrummen gut herausfiltert.
@@ -30,7 +35,9 @@ Alternativ würde auch eine 9V-Batterei o.ä. gehen. Über dem Widerstand wird d
 Mikrofoneingang der Soundkarte des Personalcomputers eingespeist (siehe Abb. 3).
 
 ![_config.yml]({{ site.baseurl }}/images/laser-schaltung.png)
+{: style="text-align: center"}
 Abb. 3: die Elektronik
+{: style="text-align: center"}
 
 Am Computer muss wenn noch nicht geschehen der Microfoneingang aktiviert und als Aufnahmekanal
 konfiguriert werden. Diese Einstellungen sind unter Windows etwas versteckt. Am besten gelang man
