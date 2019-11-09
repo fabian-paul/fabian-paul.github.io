@@ -90,7 +90,7 @@ Wenn man den e-Ansatz für eine unendlich lange harmonische Welle
 
 $$ u(x,t)=\mathrm{e}^{\mathrm{i}(kx - \omega t)} $$
 
-in Gleichung \ref{linkdv} einsetzt, erh‰lt man sofort die Dispersionsrelation:
+in Gleichung \ref{linkdv} einsetzt, erhält man sofort die Dispersionsrelation:
 
 $$ \omega(k)= -k^3 $$
 
@@ -130,7 +130,7 @@ lässt sich \ref{gewkdv} schreiben als:
 
 $$ -\alpha f' + f''' + 6 f f' = 0. $$
 
-Mit der rückwärts angewandten Produktregel $$6 f f' = 3(f^2)'$$ erhalten wir\footnote{siehe auch [Eckhaus83]}:
+Mit der rückwärts angewandten Produktregel $$6 f f' = 3(f^2)'$$ erhalten wir [^1]:
 
 $$ -\alpha f' + f''' + 3(f^2)' = 0 $$
 
@@ -184,6 +184,9 @@ $$
 \end{equation}
 $$
 
+![_config.yml]({{ site.baseurl }}/images/KdV-ein-Solitonen-Loesung.png)
+{: style="text-align: center"}
+
 Diese Gleichung beschreibt ein (im Ortsraum) lokalisiertes Wellenpaket, das sich
 nach links bewegt und dessen Form zeitlich unveränderlich ist. Diese Lösung wird
 **solitäre Welle** genannt. Da die Kurve an den Rändern schnell auf Null abfällt,
@@ -206,4 +209,7 @@ möglich, dass sich solitäre Wellen begegnen.
 * <a name="Eckhaus83"/>[Eckhaus83] Wiktor Eckhaus, Aart van Harten: "The Inverse Scattering Transformation and The Theory of Solitons", Elsevier Science Publishers B.V. 1983, 1. Auflage, S. 4--5
 * <a name="Dodd82"/>[Dodd82]
   R.K. Dodd, J.C. Eilbeck, J.D. Gibben, H.C. Morris: "Solitons and Nonlinear Wave Equations". Academic Press, 1982, ISBN 0-12-219120-X, Seite 595
+
+[^1]: siehe auch [Eckhaus83](#Eckhaus83).	
+
 
