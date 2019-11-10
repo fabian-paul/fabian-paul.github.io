@@ -1,3 +1,18 @@
+/* Copyright 2011-2019 Fabian Paul
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.*/
+
 function array2D(n) {
   arr = new Array(n);
   for (var i=0; i < n; i++) { 
@@ -19,6 +34,7 @@ var im_future = array2D(N);
 var pseudo_3d = false;
 var alt = false;
 var alt2 = false;
+var alt3 = false;
 
 function calc() {
   var re_laplace, im_laplace;
@@ -101,13 +117,21 @@ function setup()
 
 /* TODO: alpha, beta Auswahl aus Stabilitätsdiagramm */
 function draw() { 
-  for (var i=0; i<10; i++) calc();
-  
-  for (var x=0; x<N; x++) { 
-    for (var y=0; y<N; y++) { 
-      set(x, y, color(220./360., 0.5*(re_now[x][y]+1.0), 1.0));
-    }
+  for (var i=0; i<50; i++) calc();
+  if(alt3) {
+	  for (var x=0; x<N; x++) { 
+	    for (var y=0; y<N; y++) {
+	      set(x, y, color(220./360., re_now[x][y]*re_now[x][y]+im_now[x][y]*im_now[x][y], 1.0));
+	    }
+	  }
+  } else {
+	  for (var x=0; x<N; x++) { 
+	    for (var y=0; y<N; y++) {
+	      set(x, y, color(220./360., 0.5*(re_now[x][y]+1.0), 1.0));
+	    }
+	  }
   }
+
 	if(pseudo_3d) { text("3d", 5, 15); }
   updatePixels();
   if(mouseIsPressed && mouseButton!=CENTER && !alt2) {
@@ -178,4 +202,8 @@ function keyPressed() {
 function keyReleased() {
   if (keyCode == SHIFT)  alt = false;
 	if (keyCode == ALT || keyCode == CONTROL)  alt2 = false;
+}
+
+function doubleClicked() {
+  alt3 = !alt3;
 }
