@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Analytische Lösung für Solitonen
+title: Solitonen als Flachwasserwellen
 use_math: true
 use_processing: true
 processing_script: KdV.js
@@ -14,8 +14,11 @@ teilchenartige Eigenschaften aufweisen. Wir behandeln speziell die Korteweg-de-V
 [Photo](https://commons.wikimedia.org/wiki/File:Alfond_W2_Ocean_Engineering_Lab_at_the_UMaine_Advanced_Structures_and_Composites_Center.jpg) by Jplourde umaine / [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)
 {: style="text-align: center"}
 
+Dieser Blogpost ist ein Auszug aus dem Projekt "Algebraische und numerische Betrachtung von Solitonlösungen der Korteweg-de-Vries-Gleichung" von Fabian Paul, Thomas Heinemann, Sebastian Rode aus der Übung
+"Projekte zur Einfuhrung in die Theoretische Physik II", TU Berlin WS2006/2007.
+{: style="color: #909090;"}
 
-### Solitonen als Flachwasserwellen
+### Flachwasserwellen in der Hydrodynamik
 
 Wenn man eine historische Herangehensweise an das Thema der Solitonen wählt,
 ist der erste Punkt die Theorie der Flachwasserwellen in der Hydrodynamik. Wie
