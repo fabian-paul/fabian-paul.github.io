@@ -26,16 +26,20 @@ var u_old = new Array(N);
 
 function add_soliton(alpha_, c_, clear) {
    sqrt_alpha = sqrt(alpha_);
-   for (var i=0; i<N; i++) {
+   if (clear) {
+      for (var i=0; i<N; i++) {
+        u[i] = 0.0;
+        u_new[i] = 0.0;
+      }
+   }
+   for (var i=-N; i<2*N; i++) { // include periodic images
         var x = i*h;
         var t_new = k;
         var t = 0.0;
         var u_i = alpha_ / (2.0 * Math.pow(Math.cosh(0.5*sqrt_alpha*(x-alpha_*t-c_)), 2));
         var u_new_i = alpha_ / (2.0 * Math.pow(Math.cosh(0.5*sqrt_alpha*(x-alpha_*t_new-c_)), 2));
-        if (clear || u_i > 0.01) {
-          u[i] = u_i;
-          u_new[i] = u_new_i;
-        } 
+        u[(i + N) % N] += u_i;
+        u_new[(i + N) % N] += u_new_i;
    }
 }
 
