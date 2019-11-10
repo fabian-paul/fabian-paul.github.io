@@ -15,7 +15,7 @@ teilchenartige Eigenschaften aufweisen. Wir behandeln speziell die Korteweg-de-V
 {: style="text-align: center"}
 
 Dieser Blogpost ist ein Auszug aus dem Projekt "Algebraische und numerische Betrachtung von Solitonlösungen der Korteweg-de-Vries-Gleichung" von Fabian Paul, Thomas Heinemann, Sebastian Rode aus der Übung
-"Projekte zur Einfuhrung in die Theoretische Physik II", TU Berlin WS2006/2007.
+"Projekte zur Einführung in die Theoretische Physik II", TU Berlin WS2006/2007.
 {: style="color: #909090;"}
 
 ### Flachwasserwellen in der Hydrodynamik

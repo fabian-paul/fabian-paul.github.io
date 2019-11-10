@@ -46,7 +46,8 @@ function add_soliton(alpha_, c_, clear) {
 function setup() {
    var canvas = createCanvas(N, H);
    canvas.parent('sketch-holder');
-   strokeWeight(3);
+   strokeWeight(2
+);
    colorMode(RGB);
    stroke(15,75,85);
    add_soliton(1.0, 0.5*h*N, true);
@@ -80,9 +81,11 @@ function draw() {
 }
 
 function mouseReleased() {
-  alpha_ = float(H-mouseY) / float(H);
-  c_ = mouseX * h;
-  add_soliton(alpha_, c_, alt);
+  if (mouseX>=0 && mouseX<N && mouseY>=0 && mouseY<H) {
+    alpha_ = float(H-mouseY) / float(H);
+    c_ = mouseX * h;
+    add_soliton(alpha_, c_, alt);
+  }
 }
 
 function keyPressed() {
