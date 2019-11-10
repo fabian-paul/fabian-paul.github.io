@@ -2,6 +2,8 @@
 layout: post
 title: Analytische Lösung für Solitonen
 use_math: true
+use_processing: true
+processing_script: KdV.js
 ---
 
 Solitonen sind Lösungen einer partiellen nichtlinearen Differentialgleichung, die 
@@ -186,7 +188,10 @@ $$
 \end{equation}
 $$
 
-![_config.yml]({{ site.baseurl }}/images/KdV-ein-Solitonen-Loesung.png)
+<div id="sketch-holder">
+</div>
+{: style="text-align: center"}
+(click, shift-click) [show source]({{ site.baseurl }}/scripts/KdV.js)
 {: style="text-align: center"}
 
 Diese Gleichung beschreibt ein (im Ortsraum) lokalisiertes Wellenpaket, das sich
