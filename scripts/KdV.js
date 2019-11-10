@@ -60,6 +60,7 @@ function step_() {
      m_plus_1 = (m + 1) % N;
      m_minus_2 = (m + N - 2) % N;
      m_minus_1 = (m + N - 1) % N;
+     // siehe R.K. Dodd, J.C. Eilbeck, J.D. Gibben, H.C. Morris: Solitons and Nonlinear Wave Equations. Academic Press, 1982, ISBN 0-12-219120-X, Seite 595 
      u_new[m] = u_old[m] - k/(h*h*h) * (u[m_plus_2] - 2*u[m_plus_1] + 2*u[m_minus_1] - u[m_minus_2]) -
                 6*k/(3*h) * (u[m_plus_1] + u[m] + u[m_minus_1]) * (u[m_plus_1] - u[m_minus_1]);
    }
