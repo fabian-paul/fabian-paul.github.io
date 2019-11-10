@@ -28,6 +28,8 @@ function setup() {
    var canvas = createCanvas(N, H);
    canvas.parent('sketch-holder');
    strokeWeight(3);
+   colorMode(RGB);
+   stroke(15,75,85);
    add_soliton(1.0, 0.5*h*N, true);
 }
 
