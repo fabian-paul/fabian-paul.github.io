@@ -19,6 +19,7 @@ var k = 0.0003;
 var H = 150;
 var alt = false;
 var short_touch = false;
+var very_short_touch = false;
 
 var u = new Array(N);
 var u_new = new Array(N);
@@ -81,11 +82,13 @@ function draw() {
 
 function mousePressed() {
    short_touch = true;
+   very_short_touch = true;
    setTimeout(function (){ short_touch = false; }, 500);
+   setTimeout(function (){ very_short_touch = false; }, 50);
 }
 
 function mouseReleased() {
-  if (mouseX>=0 && mouseX<N && mouseY>=0 && mouseY<H) {
+  if (mouseX>=0 && mouseX<N && mouseY>=0 && mouseY<H && !very_short_touch) {
     alpha_ = float(H-mouseY) / float(H) * 10.;
     c_ = mouseX * h;
     add_soliton(alpha_, c_, alt || !short_touch);
