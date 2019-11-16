@@ -18,7 +18,7 @@ var h = 0.1;
 var k = 0.0003;
 var H = 150;
 var alt = false;
-var alt2 = false;
+var short_touch = false;
 
 var u = new Array(N);
 var u_new = new Array(N);
@@ -79,20 +79,23 @@ function draw() {
    }
 }
 
+function mousePressed() {
+   short_touch = true;
+   setTimeout(function (){ short_touch = false; }, 500);
+}
+
 function mouseReleased() {
   if (mouseX>=0 && mouseX<N && mouseY>=0 && mouseY<H) {
     alpha_ = float(H-mouseY) / float(H) * 10.;
     c_ = mouseX * h;
-    add_soliton(alpha_, c_, alt);
+    add_soliton(alpha_, c_, alt || !short_touch);
   }
 }
 
 function keyPressed() {
    if (keyCode == SHIFT) alt = true;
-   if (keyCode == ALT || keyCode == CONTROL)  alt2 = true;
 }
  
 function keyReleased() {
    if (keyCode == SHIFT) alt = false;
-   if (keyCode == ALT || keyCode == CONTROL)  alt2 = false;
 }
