@@ -194,7 +194,7 @@ $$
 <div id="sketch-holder">
 </div>
 {: style="text-align: center"}
-(click, shift-click) [show source]({{ site.baseurl }}/scripts/KdV.js)
+(click, shift click/long press) [show source]({{ site.baseurl }}/scripts/KdV.js)
 {: style="text-align: center"}
 
 Diese Gleichung beschreibt ein (im Ortsraum) lokalisiertes Wellenpaket, das sich
