@@ -84,7 +84,7 @@ function mousePressed() {
    short_touch = true;
    very_short_touch = true;
    setTimeout(function (){ short_touch = false; }, 500);
-   setTimeout(function (){ very_short_touch = false; }, 20);
+   setTimeout(function (){ very_short_touch = false; }, 10);
 }
 
 function mouseReleased() {
