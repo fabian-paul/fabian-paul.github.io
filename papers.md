@@ -19,7 +19,7 @@ permalink: /papers/
 ## Publikationen
 
 1. <a name="P1" />Paul, Roux (in preparation)
-2. <a name="P2" />Paul, Meng, Roux, **Metastable conformational states of apo Abl kinase from molecular dynamics simulation** (in preparation)
+2. <a name="P2" />Paul, Meng, Roux, **Identification of druggable kinase target conformations using Markov model metastable states analysis of apo Abl** (under revision)
 3. <a name="P3" />Paul, Wu, Vossel, de Groot, Noé, **Identification of kinetic order parameters for non-equilibrium dynamics** [J.  Chem. Phys., 150, 164120 (2019)](https://doi.org/10.1063/1.5083627), [arXiv](https://arxiv.org/abs/1811.12551)
 4. <a name="P4" />Paul, **Markov state modeling of binding and conformational changes of proteins**, Dissertation, [Universität Potsdam  (2017)](https://nbn-resolving.org/urn:nbn:de:kobv:517-opus4-404273)
 5. <a name="P5" />Paul, Noé, Weikl, **Identifying Conformational-Selection and Induced-Fit Aspects in the Binding-Induced Folding of PMI from Markov State Modeling of Atomistic Simulations** [J. Phys. Chem. B, 122, 5649 (2018)](https://doi.org/10.1021/acs.jpcb.7b12146)
