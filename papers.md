@@ -9,16 +9,18 @@ permalink: /papers/
 - Explorative Datenanalyse, Dimensionsreduktion:	[P2](#P2), [P3](#P3), [P13](#P13), [P18](#P18)
 - Kombinierende stochastische Modellierung von Daten aus multiplen Quellen:	[P7](#P7), [P12](#P12)
 - Modellselektion in der Zeitreihenanalyse:  	[P8](#P8), [P9](#P9)
-- Unsicherheitsquantifizierung:	[P15](#P15)
-- Feature selection:	[P10]()
+- Unsicherheitsquantifizierung:	[P9](#P9), [P15](#P15)
+- Feature selection:	[P10](#P10)
 - Maximum-likelihood Methoden:	[P7](#P7), [P12](#P12)
 - Software und Tutorials:	[P16](#P16)
 - Anwendungen Protein-Protein-Interaktion: [P5](#P5), [P6](#P6)
-- Anwendungen Konformationdynamik: [P2](#P2), [P11](#P11), [P14](#P14)
+- Anwendungen Konformationdynamik: [P0](#P0), [P2](#P2), [P11](#P11), [P14](#P14)
 
 ## Publikationen
 
-1. <a name="P1" />Dodd, Botto, Paul, Fernandez-Leiro, Lamers and Ivanov (in preparation)
+{:start="0"}
+0. <a name="P0" />Paul, Thomas, Roux (in preparation)
+1. <a name="P1" />Dodd, Botto, Paul, Fernandez-Leiro, Lamers and Ivanov (under revision)
 2. <a name="P2" />Paul, Meng, Roux, **Identification of druggable kinase target conformations using Markov model metastable states analysis of apo Abl** [J. Chem. Theory Comput. (2020)](https://doi.org/10.1021/acs.jctc.9b01158)
 3. <a name="P3" />Paul, Wu, Vossel, de Groot, Noé, **Identification of kinetic order parameters for non-equilibrium dynamics** [J.  Chem. Phys., 150, 164120 (2019)](https://doi.org/10.1063/1.5083627), [arXiv](https://arxiv.org/abs/1811.12551)
 4. <a name="P4" />Paul, **Markov state modeling of binding and conformational changes of proteins**, Dissertation, [Universität Potsdam  (2017)](https://nbn-resolving.org/urn:nbn:de:kobv:517-opus4-404273)
