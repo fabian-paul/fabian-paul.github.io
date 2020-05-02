@@ -5,10 +5,10 @@ permalink: /about/
 ---
 
 Current work address:\\
-Roux lab\\
-929 East 57th Street\\
-Chicago, IL 60637\\
-Rm: W323A
+IAV Digital Lab\\
+Hallerstraße 6\\
+10587 Berlin
+
 
 > Von einer technohumanen Kultur, die mehr als eine erfolgreiche Barbarei sein will, werden vor allem zwei Dinge verlangt: 
 > psychologische Bildung und kulturelle Übersetzungsfähigkeit. Die Mathematiker müssen Poeten werden, die Kybernetiker Religionsphilosophen, 
@@ -26,4 +26,4 @@ Rm: W323A
 
 ### Contact me
 
-[fapa@uchicago.edu](mailto:fapa@uchicago.edu)
+[fabian.paul@physik.tu-berlin.de](mailto:fabian.paul@physik.tu-berlin.de)
