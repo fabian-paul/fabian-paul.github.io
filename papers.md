@@ -19,7 +19,7 @@ permalink: /papers/
 
 
 {:start="1"}
-1. <a name="imatinib" />Paul, Thomas, Roux, **Diversity of long-lived intermediates along the binding pathway of Imatinib to Abl kinase revealed by MD simulations** J. Chem. Theory Comput. (2020) (in print)
+1. <a name="imatinib" />Paul, Thomas, Roux, **Diversity of long-lived intermediates along the binding pathway of Imatinib to Abl kinase revealed by MD simulations** [J. Chem. Theory Comput. (2020)](https://dx.doi.org/10.1021/acs.jctc.0c00739)
 2. <a name="abl" />Paul, Meng, Roux, **Identification of druggable kinase target conformations using Markov model metastable states analysis of apo Abl** [J. Chem. Theory Comput. (2020)](https://doi.org/10.1021/acs.jctc.9b01158), [PubMed](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7398592/)
 3. <a name="vamp" />Paul, Wu, Vossel, de Groot, Noé, **Identification of kinetic order parameters for non-equilibrium dynamics** [J.  Chem. Phys., 150, 164120 (2019)](https://doi.org/10.1063/1.5083627), [arXiv](https://arxiv.org/abs/1811.12551)
 4. <a name="diss" />Paul, **Markov state modeling of binding and conformational changes of proteins**, Dissertation, [Universität Potsdam  (2017)](https://nbn-resolving.org/urn:nbn:de:kobv:517-opus4-404273)
